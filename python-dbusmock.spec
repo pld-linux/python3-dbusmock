@@ -7,6 +7,7 @@
 Summary:	Mock D-Bus objects
 Summary(pl.UTF-8):	Atrapa obiektów D-Bus
 Name:		python-dbusmock
+# keep 0.19 here for python2 support
 Version:	0.19
 Release:	5
 License:	LGPL v3+
