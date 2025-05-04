@@ -5,13 +5,13 @@
 Summary:	Mock D-Bus objects
 Summary(pl.UTF-8):	Atrapa obiektów D-Bus
 Name:		python3-dbusmock
-Version:	0.28.7
-Release:	3
+Version:	0.34.3
+Release:	1
 License:	LGPL v3+
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/python-dbusmock/
-Source0:	https://files.pythonhosted.org/packages/source/p/python-dbusmock/python-dbusmock-%{version}.tar.gz
-# Source0-md5:	7a605e4e1555e5b2fac18570422555e4
+Source0:	https://files.pythonhosted.org/packages/source/p/python-dbusmock/python_dbusmock-%{version}.tar.gz
+# Source0-md5:	a2de46b58aa39d8337d4104493404249
 URL:		https://pypi.org/project/python-dbusmock/
 BuildRequires:	python3-modules >= 1:3.6
 BuildRequires:	python3-setuptools >= 1:45
@@ -41,7 +41,7 @@ uprawnień administratora) ustawienie stanu rzeczywistych usług na
 oczekiwany w testach.
 
 %prep
-%setup -q -n python-dbusmock-%{version}
+%setup -q -n python_dbusmock-%{version}
 
 %build
 %py3_build
